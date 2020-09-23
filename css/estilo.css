@@ -1,0 +1,161 @@
+/*=========== Tela de Abertura ============*/
+#telaabertura{
+ margin: 82px auto;
+ width:700px;
+ height:450px;
+ background-color: white;
+ background-image: url('../img/capa.jpg');
+}
+
+#botoes{
+ position:relative;
+ left: 250px;
+ top: 260px;
+ width:200px;
+ height: 150px;
+ padding:10px;
+}
+
+#btn1{
+ width:200px;
+ height: 50px;
+ margin:5px;
+ background-image: url('../img/btnjogar.jpg');
+}
+#btn1:hover{
+    margin:5px;
+ background-image: url('../img/btnjogar1.jpg');
+}
+
+#btn2{
+ width:200px;
+ height: 50px;
+ margin:5px;
+ background-image: url('../img/btncontrol.jpg');
+}
+#btn2:hover{
+    margin:5px;
+ background-image: url('../img/btncontrol1.jpg');
+}
+
+#btn3{
+ width: 200px;
+ height: 50px;
+ margin:5px;
+ background-image: url('../img/btncreditos.jpg');
+}
+
+#btn3:hover{
+ background-image: url('../img/btncreditos1.jpg');
+}
+
+/*=========== Folhas de Estilo da Tela do Jogo ================*/
+body{
+   margin:0px;
+   background-color:#efefef;   
+   background-image:url('../img/fundo.jpg');
+   background-repeat: repeat-x;
+}
+
+#principal{
+ margin: 0 auto;
+ width:1500px;
+ height:620px;
+ background-color: white;
+}
+
+/*=========== Topo ================*/
+#topo{
+ width:700px;
+ height:82px;
+ background-color: white; 
+}
+
+#tpc1{
+ width:235px;
+ height:82px;
+ float:left;
+ background-image:url('../img/topop1.png');
+}
+
+#tpc2{
+ width:230px;
+ height:82px;
+ background-color: blue; 
+ float:left;
+ background-image:url('../img/topoc.jpg');
+}
+
+#tpc3{
+ width:235px;
+ height:82px;
+ float:left;
+ background-image:url('../img/topop2.png');
+}
+
+
+/*=========== Tela Jogo ================*/
+#corpo{
+ width:1200px;
+ height:450px;
+ color: black; 
+}
+
+#mcanvas{
+  width:1200px;
+  height:450px;
+}
+
+/*=========== Rodape ================*/
+
+#rodape{
+ width:700px;
+ height:82px;
+ background-color: blue;
+}
+
+#rdpc1{
+ width:235px;
+ height:82px;
+ background-color: white; 
+ float:left;
+ background-image:url('../img/rdpp1.jpg');
+}
+
+#rdpc2{
+ width:230px;
+ height:82px;
+ background-color: white; 
+ float:left;
+ background-image:url('../img/rdpc.jpg');
+}
+
+#ilogo{
+  position: relative;
+  left:80px;
+  top:15px; 
+}
+
+#span1{
+    position:relative;
+    left:185px;
+    top:30px;   
+    color:lime;
+    font-size: 30px;
+}
+
+#span2{
+    position:relative;
+    left:30px;
+    top:30px;   
+    color:lime;
+    font-size: 30px;
+}
+
+#rdpc3{
+ width:235px;
+ height:82px;
+ background-color: white; 
+ float:left;
+ background-image:url('../img/rdpp2.jpg');
+}
